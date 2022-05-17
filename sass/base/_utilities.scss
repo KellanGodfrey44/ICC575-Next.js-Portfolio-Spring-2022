@@ -1,0 +1,17 @@
+@use '../abstracts/mixins';
+
+
+.mobile-only {
+    @include mixins.breakpoint(tablet) {
+        display: none;
+
+        }
+    }
+
+    .desktop-only {
+        display: none;
+        @include mixins.breakpoint(laptop) {
+            display: block;
+        }
+       
+}

@@ -1,0 +1,19 @@
+@use '../sass/abstracts/mixins';
+
+.container {
+    //background-color: teal;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    @include mixins.breakpoint(tablet) {
+        width: 90%;
+        margin: 0 auto;
+    }
+    @include mixins.breakpoint(laptop) {
+        width: 65em;
+    }
+    @include mixins.breakpoint(desktop) {
+        width: 1200px;
+    }
+}

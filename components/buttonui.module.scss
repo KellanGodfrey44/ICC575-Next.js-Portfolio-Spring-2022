@@ -1,0 +1,20 @@
+@use '../sass/abstracts/mixins';
+
+.btnui {
+    background-color: transparent;
+    border: 1px solid black;
+    padding:.5rem;
+    &.inverted {
+        border-color: white;
+    }
+    &.menu {
+        @include mixins.breakpoint(tablet) {
+            display: none;
+        }
+    }
+    &.close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+}

@@ -1,0 +1,15 @@
+.btn {
+    padding: .5rem 1rem;
+    border: 0;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    &.primary {
+        background-color: limegreen;
+    }
+    &.secondary {
+        background-color: white;
+        border: 1px solid limegreen;
+    }
+} // .btn parent class end 
