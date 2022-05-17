@@ -12,8 +12,8 @@ const navItems = [
         slug: "about"
     },
     {
-        label: "Contract",
-        slug: "contract"
+        label: "Contact",
+        slug: "contact"
     },
 ];
 
